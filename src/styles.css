@@ -8,6 +8,7 @@ html {
   background-size: cover;
   z-index:0;
   overflow: hidden;
+  text-align: center;
 }
 
 h1 {
@@ -26,10 +27,11 @@ h2 {
 }
 
 #start {
-    text-align: center;
-    font-size: 30px;
+   #start {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    cursor: pointer;
 }
-
 #timer{
     color: white;
 }
@@ -37,6 +39,8 @@ h2 {
 .grid {
   width: 600px;
   height: 400px;
+  background-color:green ;
+
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
